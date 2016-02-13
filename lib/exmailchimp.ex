@@ -1,0 +1,2 @@
+defmodule ExMailChimp do
+end
