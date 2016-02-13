@@ -1,0 +1,2 @@
+defmodule Mailchimp do
+end
