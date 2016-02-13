@@ -1,4 +1,4 @@
-defmodule Mailchimp.Mixfile do
+defmodule ExMailchimp.Mixfile do
   use Mix.Project
 
   def project do
@@ -7,12 +7,12 @@ defmodule Mailchimp.Mixfile do
      elixir: "~> 1.2",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
-     source_url: "https://github.com/AlluringLabs/exmailchimp/"
+     source_url: "https://github.com/AlluringLabs/exmailchimp/",
      deps: deps]
   end
 
   def application do
-    [applications: [:httpoison]]
+    [applications: []]
   end
 
   defp deps do
