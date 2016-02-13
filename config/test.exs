@@ -1,5 +1,5 @@
 use Mix.Config
 
-config :exmailchimp,
-  api_key: "t",
+config :exmailchimp, :api,
+  api_key: "somerandomapikey",
   data_center: "us55"
