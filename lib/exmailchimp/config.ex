@@ -12,7 +12,7 @@ defmodule ExMailChimp.Config do
   end
 
   def root_url do
-    %{api_key: _, data_center: dc} = get
+    dc = get(:data_center)
     "https://#{dc}.api.mailchimp.com/#{@version}"
   end
 end
